@@ -2,7 +2,8 @@ package br.edu.fatecfranca;
 
 public class Assistente extends Funcionario {
     private float horaExtra;
-    public Assistente(){
+
+    public Assistente() {
         super(); //chama o construtor da superclasse
         this.horaExtra = 0;
     }
@@ -22,12 +23,12 @@ public class Assistente extends Funcionario {
 
     @Override  //anula o método da classe pai
     public String toString() {
-        return super.toString() + "\nhoraExtra=" + horaExtra +
+        return super.toString() + "horaExtra=" + horaExtra +
                 '}';
     }
 
     @Override
-    public float calculaSalario(){
+    public float calcularSalario() {
         return this.salario + (horaExtra * 40);
+        }
     }
-}
