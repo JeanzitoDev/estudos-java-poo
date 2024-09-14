@@ -5,11 +5,19 @@ import br.edu.fatecfranca.Assistente;
 import br.edu.fatecfranca.Gerente;
 import br.edu.fatecfranca.Diretor;
 
+import javax.sound.midi.Soundbank;
+import java.util.ArrayList;
 
 
 public class Main {
     public static void mostra(Funcionario func){
         System.out.println(func.toString());
+    }
+    public static void calculaFolhaSalarial (ArrayList<Funcionario> funcionarios){
+        float soma = 0;
+        for (Funcionario func : funcionarios) {
+            soma += func.getSalario();
+        }
     }
 
     public static void main(String[] args) {
@@ -21,6 +29,13 @@ public class Main {
 
         Diretor diretor1 = new Diretor("Paulo", "São Paulo", "456.654.453-45", 8000, 1000);
         mostra(diretor1);
+
+
+
+        ArrayList<Funcionario> lista = new ArrayList<Funcionario>();
+        lista.add(ass1);
+        lista.add(gerente1);
+        lista.add(diretor1);
 
     }
 }
