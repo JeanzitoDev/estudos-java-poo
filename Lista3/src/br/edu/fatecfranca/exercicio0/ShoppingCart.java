@@ -1,4 +1,4 @@
-package br.edu.fatecfranca;
+package br.edu.fatecfranca.exercicio0;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;

@@ -1,10 +1,10 @@
-package br.edu.fatecfranca;
+package br.edu.fatecfranca.testes;
 
 import br.edu.fatecfranca.exercicio1.Aluno;
 import br.edu.fatecfranca.exercicio1.Curso;
 import br.edu.fatecfranca.exercicio1.Professor;
 
-public class MainCurso {
+public class TesteCurso {
     public static void main(String[] args) {
         Aluno aluno1 = new Aluno(1, "Paulo");
         Aluno aluno2 = new Aluno(2, "Pedro");
