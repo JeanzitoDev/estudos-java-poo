@@ -1,4 +1,4 @@
-package br.edu.fatecfranca;
+package br.edu.fatecfranca.exercicio1;
 
 public class Palco {
     private Ator ator = new AtorFeliz();

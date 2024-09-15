@@ -1,4 +1,4 @@
-package br.edu.fatecfranca;
+package br.edu.fatecfranca.exercicio0;
 
 public class Gerente extends Funcionario {
     private float bonus;

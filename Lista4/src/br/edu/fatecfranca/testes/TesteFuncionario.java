@@ -1,15 +1,14 @@
-package br.edu.fatecfranca;
+package br.edu.fatecfranca.testes;
 
-import br.edu.fatecfranca.Funcionario;
-import br.edu.fatecfranca.Assistente;
-import br.edu.fatecfranca.Gerente;
-import br.edu.fatecfranca.Diretor;
+import br.edu.fatecfranca.exercicio0.Assistente;
+import br.edu.fatecfranca.exercicio0.Diretor;
+import br.edu.fatecfranca.exercicio0.Funcionario;
+import br.edu.fatecfranca.exercicio0.Gerente;
 
-import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 
 
-public class Main {
+public class TesteFuncionario {
     public static void mostra(Funcionario func){
         System.out.println(func.toString());
     }

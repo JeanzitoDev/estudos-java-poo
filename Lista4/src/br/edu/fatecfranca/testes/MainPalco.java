@@ -1,4 +1,6 @@
-package br.edu.fatecfranca;
+package br.edu.fatecfranca.testes;
+
+import br.edu.fatecfranca.exercicio1.Palco;
 
 public class MainPalco {
     public static void main(String[] args) {
